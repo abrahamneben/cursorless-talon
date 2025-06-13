@@ -56,15 +56,3 @@ tutorial <number_small>:
 
 {user.cursorless_homophone} migrate snippets:
     user.private_cursorless_migrate_snippets()
-
-(except | accept) <user.cursorless_target>:
-    user.cursorless_vscode_command("abraham_utils.acceptConflictSide", cursorless_target)
-
-reject <user.cursorless_target>:
-    user.cursorless_vscode_command("abraham_utils.rejectConflictSide", cursorless_target)
-
-(except | accept) both <user.cursorless_target>:
-    user.cursorless_vscode_command("abraham_utils.acceptBothSides", cursorless_target)
-
-reject both <user.cursorless_target>:
-    user.cursorless_vscode_command("abraham_utils.rejectBothSides", cursorless_target)
